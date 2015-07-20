@@ -24,7 +24,6 @@ optional arguments:
 Detect e.g:
 ```sh
 ======================================================================
- + Path         : /var/www/html/webshll/webshell-master/jsp/hackk8/JSP_66/other
  + File         : /var/www/html/webshll/webshell-master/jsp/hackk8/JSP_66/other/jspspy_k8.jsp
  + File Owner   : 0:0
  + Permission   : 644
