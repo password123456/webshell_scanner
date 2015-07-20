@@ -15,7 +15,6 @@ def get_fileinfo(filename):
     (mode, ino, dev, nlink, uid, gid, size, atime, mtime, ctime) = os.stat(filename)
     print '\n'
     print ('=' * 70)
-    print ' + Path         : ' + os.getcwd()
     print ' + File         : ' + os.path.abspath(filename)
     print ' + File Owner   : ' + str(uid) + ':' + str(gid)
     print ' + Permission   : ' + oct(mode)[-3:]
