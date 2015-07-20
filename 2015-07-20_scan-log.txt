@@ -1,0 +1,11 @@
+[root@centos64 webshell-detect]# cat 2015-07-20_scan-log.txt
+[2015-07-20 13:38:55] PHP=16, ASP=2, JSP=2, china=2, 	 /home/script/webshell-detect/1.0webshell_scan.py
+[2015-07-20 13:38:55] PHP=4, ASP=2, JSP=2, china=2, 	 /home/script/webshell-detect/webshell_scan.py
+[2015-07-20 13:38:55] PHP=7, ASP=2, JSP=2, china=2, 	 /home/script/webshell-detect/quick_scan_webshell_v0.2.py
+[2015-07-20 13:38:56] PHP=7, ASP=2, JSP=2, china=2, 	 /home/script/webshell-detect/quick_scan_webshell_v0.5.py
+[2015-07-20 13:38:56] PHP=8, ASP=2, JSP=2, china=2, 	 /home/script/webshell-detect/quick_scan_webshell_v0.1.py
+[2015-07-20 13:38:57] PHP=59, ASP=8, JSP=4, china=77, 	 /home/script/webshell-detect/JspWebshell 1.2.jsp
+[2015-07-20 13:38:57] PHP=7, ASP=2, JSP=2, china=2, 	 /home/script/webshell-detect/quick_scan_webshell_v0.4.py
+[2015-07-20 13:38:57] PHP=7, ASP=2, JSP=2, china=2, 	 /home/script/webshell-detect/quick_scan_webshell_v0.3.py
+[2015-07-20 13:38:57] PHP=25, ASP=15, JSP=4, china=9, 	 /home/script/webshell-detect/my_scan/my_config.py
+[2015-07-20 13:38:57] PHP=25, ASP=15, JSP=4, china=9, 	 /home/script/webshell-detect/1/webshell-scanner-master/my_config.py
