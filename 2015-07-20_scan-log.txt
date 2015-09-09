@@ -1,11 +1,30 @@
-[root@centos64 webshell-detect]# cat 2015-07-20_scan-log.txt
-[2015-07-20 13:38:55] PHP=16, ASP=2, JSP=2, china=2, 	 /home/script/webshell-detect/1.0webshell_scan.py
-[2015-07-20 13:38:55] PHP=4, ASP=2, JSP=2, china=2, 	 /home/script/webshell-detect/webshell_scan.py
-[2015-07-20 13:38:55] PHP=7, ASP=2, JSP=2, china=2, 	 /home/script/webshell-detect/quick_scan_webshell_v0.2.py
-[2015-07-20 13:38:56] PHP=7, ASP=2, JSP=2, china=2, 	 /home/script/webshell-detect/quick_scan_webshell_v0.5.py
-[2015-07-20 13:38:56] PHP=8, ASP=2, JSP=2, china=2, 	 /home/script/webshell-detect/quick_scan_webshell_v0.1.py
-[2015-07-20 13:38:57] PHP=59, ASP=8, JSP=4, china=77, 	 /home/script/webshell-detect/JspWebshell 1.2.jsp
-[2015-07-20 13:38:57] PHP=7, ASP=2, JSP=2, china=2, 	 /home/script/webshell-detect/quick_scan_webshell_v0.4.py
-[2015-07-20 13:38:57] PHP=7, ASP=2, JSP=2, china=2, 	 /home/script/webshell-detect/quick_scan_webshell_v0.3.py
-[2015-07-20 13:38:57] PHP=25, ASP=15, JSP=4, china=9, 	 /home/script/webshell-detect/my_scan/my_config.py
-[2015-07-20 13:38:57] PHP=25, ASP=15, JSP=4, china=9, 	 /home/script/webshell-detect/1/webshell-scanner-master/my_config.py
+[root@centos64 webshell-detect]# cat 2015-09-09_scan-log.txt
+[2015-09-09 16:38:13] PHP=0 | ASP=2 | JSP=1 | china=0 | /var/www/html/webshll/webshell-master/php/12309/12309.php.txt
+[2015-09-09 16:38:13] PHP=0 | ASP=2 | JSP=0 | china=0 | /var/www/html/webshll/webshell-master/php/wso/wso.php
+[2015-09-09 16:38:13] PHP=0 | ASP=2 | JSP=0 | china=0 | /var/www/html/webshll/webshell-master/php/wso/wso2.php
+[2015-09-09 16:38:13] PHP=1 | ASP=0 | JSP=0 | china=0 | /var/www/html/webshll/webshell-master/php/phpspy/2014phpspy.php
+[2015-09-09 16:38:13] PHP=0 | ASP=2 | JSP=2 | china=38 | /var/www/html/webshll/webshell-master/php/phpspy/2013未加密.php
+[2015-09-09 16:38:14] PHP=1 | ASP=0 | JSP=0 | china=0 | /var/www/html/webshll/webshell-master/php/phpspy/2013加密.php
+[2015-09-09 16:38:14] PHP=1 | ASP=0 | JSP=0 | china=0 | /var/www/html/webshll/webshell-master/php/php-sh/server.php
+[2015-09-09 16:38:14] PHP=2 | ASP=0 | JSP=0 | china=0 | /var/www/html/webshll/webshell-master/php/phpkit-1.0/README.txt
+[2015-09-09 16:38:14] PHP=2 | ASP=0 | JSP=0 | china=0 | /var/www/html/webshll/webshell-master/php/phpkit-0.2a/README
+[2015-09-09 16:38:14] PHP=1 | ASP=0 | JSP=0 | china=0 | /var/www/html/webshll/webshell-master/php/blackbin/v1/make2.php
+[2015-09-09 16:38:14] PHP=0 | ASP=1 | JSP=0 | china=60 | /var/www/html/webshll/webshell-master/php/blackbin/v1/code.php
+[2015-09-09 16:38:14] PHP=1 | ASP=0 | JSP=0 | china=0 | /var/www/html/webshll/webshell-master/php/b374k/b374k-2.2.min.php
+[2015-09-09 16:38:15] PHP=1 | ASP=2 | JSP=0 | china=0 | /var/www/html/webshll/webshell-master/php/b374k/b374k-3.2.3.php
+[2015-09-09 16:39:53] PHP=0 | ASP=2 | JSP=0 | china=0 | /var/www/html/webshll/webshell-master/php/mof提权带回显带清楚命令版本.php
+[2015-09-09 16:39:53] PHP=1 | ASP=0 | JSP=0 | china=2 | /var/www/html/webshll/webshell-master/php/非常规的pHp一句话木马.php
+[2015-09-09 16:39:53] PHP=0 | ASP=2 | JSP=0 | china=0 | /var/www/html/webshll/webshell-master/php/wso2.php.txt
+[2015-09-09 16:39:54] PHP=6 | ASP=0 | JSP=0 | china=2 | /var/www/html/webshll/webshell-master/php/fbi.php
+[2015-09-09 16:39:54] PHP=1 | ASP=0 | JSP=0 | china=11 | /var/www/html/webshll/webshell-master/php/pHp一句话扫描脚本程序.php
+[2015-09-09 16:39:54] PHP=0 | ASP=2 | JSP=0 | china=0 | /var/www/html/webshll/webshell-master/php/shell.php.txt
+[2015-09-09 16:39:54] PHP=1 | ASP=0 | JSP=0 | china=23 | /var/www/html/webshll/webshell-master/php/php-xor.md
+[2015-09-09 16:39:55] PHP=1 | ASP=0 | JSP=0 | china=3 | /var/www/html/webshll/webshell-master/php/php1.php
+[2015-09-09 16:39:55] PHP=2 | ASP=5 | JSP=0 | china=227 | /var/www/html/webshll/webshell-master/php/lnc.php
+[2015-09-09 16:39:55] PHP=0 | ASP=3 | JSP=0 | china=0 | /var/www/html/webshll/webshell-master/php/indrajith-2.0.txt
+[2015-09-09 16:39:55] PHP=5 | ASP=18 | JSP=0 | china=419 | /var/www/html/webshll/webshell-master/php/ghost_source.php
+[2015-09-09 16:39:56] PHP=1 | ASP=2 | JSP=0 | china=0 | /var/www/html/webshll/webshell-master/php/404.php.txt
+[2015-09-09 16:39:56] PHP=1 | ASP=0 | JSP=0 | china=0 | /var/www/html/webshll/webshell-master/php/priv95.php.txt
+[2015-09-09 16:39:56] PHP=0 | ASP=2 | JSP=0 | china=0 | /var/www/html/webshll/webshell-master/php/tiamo.php.decode.txt
+[2015-09-09 16:39:56] PHP=0 | ASP=2 | JSP=0 | china=0 | /var/www/html/webshll/webshell-master/php/indrajith.txt
+[2015-09-09 16:39:56] PHP=1 | ASP=0 | JSP=0 | china=0 | /var/www/html/webshll/webshell-master/php/tiamo.php.txt
