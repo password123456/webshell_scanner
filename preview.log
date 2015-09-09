@@ -1,0 +1,121 @@
+
+[root@centos64 webshell-detect]# ./quick_scan_webshell_release_final_v1.4.py -p /var/www/html/webshll/
+
+======================================================================
+ + File         : /var/www/html/webshll/webshell-master/php/blackbin/v1/code.php
+ + File Owner   : 0:0
+ + Permission   : 644
+ + Last accessed: Wed Sep  9 15:20:04 2015
+ + Last modified: Mon Jul 20 12:42:20 2015
+ + Filesize     : 34 KB
+ + MD5          : a444014c134ff24c0be5a05c02b81a79
+ + SHA1         : 7a2048d621510445b0eb6987a60f7b0e3c908582
+ + SHA256       : 95884ff3ada861e259442eb0c8920ff8bdb25064c237b292036fa1f65fdfac00
+
+
+ [*] PHP Suspicious function used: [count / 0 ]
+ [*] ASP Suspicious function used: [count / 1 ]
+ [*] JSP Suspicious function used: [count / 0 ]
+ [*] Scan Chinese Words : [ count / 60 ]
+
+======================================================================
+ + File         : /var/www/html/webshll/webshell-master/php/PHPshell/【r57_Mohajer22】/r57_Mohajer22.php
+ + File Owner   : 0:0
+ + Permission   : 644
+ + Last accessed: Wed Sep  9 15:20:10 2015
+ + Last modified: Mon Jul 20 12:42:20 2015
+ + Filesize     : 111 KB
+ + MD5          : e5b2131dd1db0dbdb43b53c5ce99016a
+ + SHA1         : 946a66a5f7f8be95ea7693ee5500bb404b9d0add
+ + SHA256       : 1db0549066f294f814ec14ba4e9f63d88c4460d68477e5895236173df437d2b8
+
+
+ [*] PHP Suspicious function used: [count / 2 ]
+ [*] ASP Suspicious function used: [count / 5 ]
+ [*] JSP Suspicious function used: [count / 1 ]
+ [*] Scan Chinese Words : [ count / 0 ]
+
+
+======================================================================
+ + File         : /var/www/html/webshll/webshell-master/php/PHPshell/iMHaPFtp/iMHaPFtp.php
+ + File Owner   : 0:0
+ + Permission   : 644
+ + Last accessed: Wed Sep  9 15:20:10 2015
+ + Last modified: Mon Jul 20 12:42:20 2015
+ + Filesize     : 52 KB
+ + MD5          : 12911b73bc6a5d313b494102abcf5c57
+ + SHA1         : f87a93e75f54f4e0192acf549e7391afec9bba2f
+ + SHA256       : e6129cd3d309aa57e8ccbd2455743d17a288b52ef2e56ea0e949cdb408b9ca51
+
+
+ [*] PHP Suspicious function used: [count / 0 ]
+ [*] ASP Suspicious function used: [count / 2 ]
+ [*] JSP Suspicious function used: [count / 0 ]
+
+
+======================================================================
+ + File         : /var/www/html/webshll/webshell-master/php/PHPshell/【EgY_SpIdEr ShElL V2】/EgY_SpIdEr ShElL V2.php
+ + File Owner   : 0:0
+ + Permission   : 644
+ + Last accessed: Wed Sep  9 15:20:11 2015
+ + Last modified: Mon Jul 20 12:42:20 2015
+ + Filesize     : 304 KB
+ + MD5          : 697dae78c040150daff7db751fc0c03c
+ + SHA1         : 59ebe14e885f1ed99d9a2a204a18ecef33573b6b
+ + SHA256       : 32fc83de0860f0f4b33976d33c9899061e7529694f25b8c7b09b2838c111adcc
+
+
+ [*] PHP Suspicious function used: [count / 3 ]
+ [*] ASP Suspicious function used: [count / 19 ]
+ [*] JSP Suspicious function used: [count / 4 ]
+ 
+ ======================================================================
+ + File         : /var/www/html/webshll/webshell-master/asp/RadHat-webshell-del-backdoor/明文版.asp
+ + File Owner   : 0:0
+ + Permission   : 644
+ + Last accessed: Wed Sep  9 16:36:25 2015
+ + Last modified: Mon Jul 20 12:42:20 2015
+ + Filesize     : 92 KB
+ + MD5          : 68483788ab171a155db5266310c852b2
+ + SHA1         : 0bfe1eef2a22093ea7304aa800f87f24228bc2b5
+ + SHA256       : 0ba9d0d668d00ee68a2869c6a1b9c05f08469daa84f177079e76e4baeef7748c
+
+
+ [*] PHP Suspicious function used: [count / 0 ]
+ [*] ASP Suspicious function used: [count / 51 ]
+ [*] JSP Suspicious function used: [count / 0 ]
+
+
+======================================================================
+ + File         : /var/www/html/webshll/webshell-master/asp/RadHat-webshell-del-backdoor/加密版.asp
+ + File Owner   : 0:0
+ + Permission   : 644
+ + Last accessed: Wed Sep  9 16:36:25 2015
+ + Last modified: Mon Jul 20 12:42:20 2015
+ + Filesize     : 98 KB
+ + MD5          : 4d09db86991aa3ba377c199bafc6b14a
+ + SHA1         : 24934ab54fe9741096d218b306347ed49e39b613
+ + SHA256       : a2c27bba48ac3d292a060b3d1e428e504281826e333729e95d0b04f2056fa1c5
+
+
+ [*] PHP Suspicious function used: [count / 0 ]
+ [*] ASP Suspicious function used: [count / 1 ]
+ [*] JSP Suspicious function used: [count / 0 ]
+
+
+======================================================================
+ + File         : /var/www/html/webshll/webshell-master/asp/ajs/shell_decoded.asp
+ + File Owner   : 0:0
+ + Permission   : 644
+ + Last accessed: Wed Sep  9 16:36:26 2015
+ + Last modified: Mon Jul 20 12:42:20 2015
+ + Filesize     : 132 KB
+ + MD5          : f2d2694eab72bfc59b7d714a81b2f4c8
+ + SHA1         : 3c69293d2377d31d82cbf7d151fec6d04411ee1f
+ + SHA256       : d3bc4102bba36224ad94e0f8a23cc31f8a9278f5fc1797693329204ef0b15e6b
+
+
+ [*] PHP Suspicious function used: [count / 0 ]
+ [*] ASP Suspicious function used: [count / 21 ]
+ [*] JSP Suspicious function used: [count / 0 ]
+ [*] Scan Chinese Words : [ count / 5 ]
