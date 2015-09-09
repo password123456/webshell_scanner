@@ -61,7 +61,7 @@ def GET_FILEHASH(filename, hash):
 def DO_SCAN_CHINESE(filename):
     global ichinese_words_count
 
-    f = codecs.open(filename, 'r', 'utf-8')    
+    f = codecs.open(filename, 'r', 'utf-8')
     ichinese_words_count = 0
     bchinese_detect = 0
 
@@ -160,7 +160,6 @@ def DO_SCAN_WEBSHELL(filename):
                 _match_line = asp_regex.findall(_line)
 
     detect_result = php_detect + asp_detect + jsp_detect
-
     f.close()
 
     if detect_result >= 1 :
@@ -173,20 +172,24 @@ def DO_SCAN_WEBSHELL(filename):
         SAVE_LOG(filename)
 
 def SCAN_TEXTFILE(path):
-    print "Current Path: " + path
-    for root, dirs, files in os.walk(path):
-        for filename in files:
-            file = os.path.realpath(os.path.join(root,filename))
-            try:
-                with open(file, 'rb') as f:
-                    if b'\x00' in f.read():
-                        #print('The file is binary! ', file)
-                        pass
-                    else:
-                        #print('The file is not binary! ', file)
-                        DO_SCAN_WEBSHELL(file)
-            except:
-                pass
+    if os.path.exists(path):
+	    for root, dirs, files in os.walk(path):
+	        for filename in files:
+	            file = os.path.realpath(os.path.join(root,filename))
+	            try:
+	                with open(file, 'rb') as f:
+	                    if b'\x00' in f.read():
+	                        #print('The file is binary! ', file)
+	                        pass
+	                    else:
+	                        #print('The file is not binary! ', file)
+	                        DO_SCAN_WEBSHELL(file)
+	            except:
+	                pass
+    else:
+        print "\n[-] [ %s ] not exits.! Check directory.!! " % (path)
+        sys.exit()
+
 
 def SAVE_LOG(filename):
     slog_date = time.strftime('%Y-%m-%d %H:%M:%S')
@@ -225,3 +228,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
